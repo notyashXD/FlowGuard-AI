@@ -2,7 +2,7 @@
 > **Razorpay Buildathon 2026 Submission** | **Track:** AI Revenue Recovery  
 > Built by **[Yash Mishra](https://linkedin.com/in/ymishra1201)** (🏆 IBM National Hackathon Winner 2026)
 
-![FlowGuard AI Thumbnail](docs/thumbnail.jpg)
+![FlowGuard AI Thumbnail](assets/thumbnail.jpg)
 
 ---
 
