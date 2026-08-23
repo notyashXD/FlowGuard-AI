@@ -121,8 +121,8 @@ Across our standardized evaluation dataset of 54 representative failure payloads
 ### 1. Clone & Configure
 
 ```bash
-git clone https://github.com/notyashXD/recovery-agent.git
-cd recovery-agent
+git clone https://github.com/notyashXD/FlowGuard-AI.git
+cd FlowGuard-AI
 ```
 
 Configure backend environment variables:
@@ -162,7 +162,7 @@ Open your browser at **`http://localhost:5173`** to access the FlowGuard AI Cont
 ## 📂 Project Structure
 
 ```
-recovery-agent/
+FlowGuard-AI/
 ├── backend/
 │   ├── .env.example                     # Environment template (no secrets)
 │   ├── package.json

@@ -1,7 +1,7 @@
 {
-  "name": "recovery-agent-backend",
+  "name": "flowguard-ai-backend",
   "version": "1.0.0",
-  "description": "AI Revenue Recovery Agent - Backend",
+  "description": "FlowGuard AI - Autonomous Revenue Defense & Recovery Engine for Razorpay",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
