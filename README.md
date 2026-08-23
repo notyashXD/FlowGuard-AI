@@ -2,6 +2,10 @@
 > **Razorpay Buildathon 2026 Submission** | **Track:** AI Revenue Recovery  
 > Built by **[Yash Mishra](https://linkedin.com/in/ymishra1201)** (🏆 IBM National Hackathon Winner 2026)
 
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-flowguard--ai.onrender.com-6366f1?style=for-the-badge)](https://flowguard-ai-xgmv.onrender.com)
+[![GitHub](https://img.shields.io/badge/GitHub-notyashXD%2FFlowGuard--AI-181717?style=for-the-badge&logo=github)](https://github.com/notyashXD/FlowGuard-AI)
+[![Track](https://img.shields.io/badge/Track-AI_Revenue_Recovery-00bfae?style=for-the-badge)](https://github.com/notyashXD/FlowGuard-AI)
+
 ![FlowGuard AI Thumbnail](assets/thumbnail.jpg)
 
 ---
