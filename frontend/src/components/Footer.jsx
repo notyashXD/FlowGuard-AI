@@ -109,8 +109,8 @@ export default function Footer() {
                       <span className="text-sm font-bold text-ink tracking-tight font-sans">
                         Yash Mishra
                       </span>
-                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-semibold bg-[#FEF3C7] dark:bg-[#F59E0B]/15 text-[#B45309] dark:text-[#FBBF24] border border-[#FDE68A] dark:border-[#F59E0B]/30 font-mono">
-                        🏆 IBM Hackathon Winner
+                      <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-md text-[10px] font-bold bg-[#FEF3C7] dark:bg-[#F59E0B]/15 text-[#B45309] dark:text-[#FBBF24] border border-[#FDE68A] dark:border-[#F59E0B]/30 font-mono shadow-xs">
+                        🏆 IBM National Hackathon Winner 2026
                       </span>
                       <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-semibold bg-[#1E4BF0]/10 dark:bg-[#1E4BF0]/20 text-[#1E4BF0] dark:text-[#60A5FA] border border-[#C7D7FE] dark:border-[#1E4BF0]/30 font-mono">
                         <Sparkles size={10} className="text-[#107C55] dark:text-[#34D399]" />

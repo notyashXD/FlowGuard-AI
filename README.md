@@ -1,6 +1,6 @@
 # FlowGuard AI — Autonomous Revenue Defense & Recovery Engine
 > **Razorpay Buildathon 2026 Submission** | **Track:** AI Revenue Recovery  
-> Built by **[Yash Mishra](https://linkedin.com/in/ymishra1201)** (🏆 IBM Hackathon Winner)
+> Built by **[Yash Mishra](https://linkedin.com/in/ymishra1201)** (🏆 IBM National Hackathon Winner 2026)
 
 ![FlowGuard AI Thumbnail](docs/thumbnail.jpg)
 
@@ -217,7 +217,7 @@ FlowGuard-AI/
 ## 👨‍💻 Author
 
 **Yash Mishra**  
-🏆 **IBM Hackathon Winner** | Lead Architect & Full-Stack Engineer  
+🏆 **IBM National Hackathon Winner 2026** | Lead Architect & Full-Stack Engineer  
 - 💼 **LinkedIn**: [linkedin.com/in/ymishra1201](https://linkedin.com/in/ymishra1201)  
 - 🐙 **GitHub**: [@notyashXD](https://github.com/notyashXD)  
 - 📧 **Email**: [yashmishra1246@gmail.com](mailto:yashmishra1246@gmail.com)  

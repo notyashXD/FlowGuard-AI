@@ -33,7 +33,7 @@ class NumberedCanvas(canvas.Canvas):
         # Header (pages > 1)
         if self._pageNumber > 1:
             self.drawString(48, 750, "FlowGuard AI · Razorpay Buildathon 2026 · Line-by-Line Choreographed Pitch Guide")
-            self.drawRightString(612 - 48, 750, "Yash Mishra · 🏆 IBM Hackathon Winner")
+            self.drawRightString(612 - 48, 750, "Yash Mishra · 🏆 IBM National Hackathon Winner 2026")
             self.setStrokeColor(colors.HexColor("#E2E8F0"))
             self.setLineWidth(0.5)
             self.line(48, 742, 612 - 48, 742)
@@ -121,7 +121,7 @@ def build_pdf():
     # ── HEADER ────────────────────────────────────────────────────────────────
     story.append(Paragraph("FLOWGUARD AI · RAZORPAY BUILDATHON 2026", ParagraphStyle('TopTag', fontName='Helvetica-Bold', fontSize=8, leading=10, textColor=c_primary, spaceAfter=2)))
     story.append(Paragraph("Championship Line-by-Line Video Script & Form Dossier", title_style))
-    story.append(Paragraph("<b>Author:</b> Yash Mishra (🏆 IBM Hackathon Winner · Lead Architect) &nbsp;|&nbsp; <b>Track:</b> AI Revenue Recovery", subtitle_style))
+    story.append(Paragraph("<b>Author:</b> Yash Mishra (🏆 IBM National Hackathon Winner 2026 · Lead Architect) &nbsp;|&nbsp; <b>Track:</b> AI Revenue Recovery", subtitle_style))
     story.append(HRFlowable(width="100%", thickness=1.5, color=c_primary, spaceAfter=10))
 
     # ── PART 1: FORM ANSWERS ──────────────────────────────────────────────────
@@ -299,8 +299,8 @@ def build_pdf():
                     '"FlowGuard AI proves that revenue recovery isn\'t just about retrying cards—it\'s about intelligent diagnosis, multi-channel customer empathy, and rigorous financial safety."'
                 ),
                 (
-                    "[👉 HOVER MOUSE: Over your Profile Photo, '🏆 IBM Hackathon Winner' badge, and LinkedIn / GitHub buttons]",
-                    '"I built FlowGuard using Razorpay APIs, Node.js, Express, MongoDB Atlas, Groq AI, and React Vite. As an IBM Hackathon Winner, I am deeply passionate about building high-concurrency payment distributed systems, and I would love the opportunity to bring this engineering mindset to Razorpay as a Software Engineering Intern."'
+                    "[👉 HOVER MOUSE: Over your Profile Photo, '🏆 IBM National Hackathon Winner 2026' badge, and LinkedIn / GitHub buttons]",
+                    '"I built FlowGuard using Razorpay APIs, Node.js, Express, MongoDB Atlas, Groq AI, and React Vite. As an IBM National Hackathon Winner 2026, I am deeply passionate about building high-concurrency payment distributed systems, and I would love the opportunity to bring this engineering mindset to Razorpay as a Software Engineering Intern."'
                 ),
                 (
                     "[👉 LEAVE SCREEN ON FOOTER PROFILE CARD STEADILY FOR 2 SECONDS]",
