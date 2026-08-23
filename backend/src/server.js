@@ -79,6 +79,19 @@ app.get('/api/batch/progress', async (req, res) => {
   }
 });
 
+const path = require('path');
+const fs = require('fs');
+
+// ── Serve Frontend in Production ──────────────────────────────────────────────
+const frontendDist = path.join(__dirname, '../../frontend/dist');
+if (fs.existsSync(frontendDist)) {
+  app.use(express.static(frontendDist));
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api')) return next();
+    res.sendFile(path.join(frontendDist, 'index.html'));
+  });
+}
+
 // ── Seed function ─────────────────────────────────────────────────────────────
 async function seedDataIfEmpty() {
   const count = await Transaction.countDocuments();

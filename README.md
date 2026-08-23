@@ -159,6 +159,27 @@ Open your browser at **`http://localhost:5173`** to access the FlowGuard AI Cont
 
 ---
 
+## 🌐 1-Click Free Cloud Deployment (Render / Railway)
+
+FlowGuard AI is production-ready for **100% Free Single-Service Full-Stack Hosting** on [Render.com](https://render.com) or [Railway.app](https://railway.app):
+
+1. Fork or push this repository to your GitHub.
+2. Log into **[Render.com](https://render.com)** → Click **New +** → **Web Service**.
+3. Connect your **`FlowGuard-AI`** repository.
+4. Set the following settings:
+   * **Runtime**: `Node`
+   * **Build Command**: `npm run build`
+   * **Start Command**: `npm run start`
+5. Add your Environment Variables in the Render dashboard:
+   * `NODE_ENV`: `production`
+   * `MONGODB_URI`: `your_mongodb_connection_string`
+   * `GROQ_API_KEY`: `your_groq_api_key`
+   * `RAZORPAY_KEY_ID`: `your_razorpay_test_key`
+   * `RAZORPAY_KEY_SECRET`: `your_razorpay_test_secret`
+6. Click **Deploy Web Service**. Your live production instance will be available at `https://flowguard-ai.onrender.com`.
+
+---
+
 ## 📂 Project Structure
 
 ```

@@ -1,0 +1,23 @@
+{
+  "name": "flowguard-ai",
+  "version": "1.0.0",
+  "description": "FlowGuard AI — Autonomous Revenue Defense & Recovery Engine for Razorpay",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "build:frontend": "cd frontend && npm run build",
+    "build": "npm run install:backend && npm run install:frontend && npm run build:frontend",
+    "start": "node backend/src/server.js"
+  },
+  "keywords": [
+    "razorpay",
+    "buildathon",
+    "fintech",
+    "ai-recovery",
+    "autonomous-agent",
+    "guardrails"
+  ],
+  "author": "Yash Mishra <yashmishra1246@gmail.com>",
+  "license": "MIT"
+}
